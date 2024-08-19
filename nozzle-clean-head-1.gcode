@@ -2,12 +2,14 @@
 ; farley@neonsurge.com
 ; Open-Source Stuffs - https://github.com/andrewfarley/
 
-
+G28                         ; First, home all axes (printer should do this automatically if needed, but it doesn't always so we force)
 T0                          ; Select the first extruder
 M104 S250                   ; Set the temperature of the selected extruder to 250°C (async/background/non-validating)
-; G28                         ; Home all axes (printer will do this automatically if needed, so commented out to save time if we can)
-G1 X145 Y0                  ; Move the head to the front middle center, but off to the left a bit
 
+; #############################
+; NOZZLE CLEAN PROCESS
+
+G1 X145 Y0                  ; Move the head to the front middle center, but off to the left a bit
 M211 S0                     ; Disable soft endstops temporarily
 G1 Y-9                      ; Go off the bed to the front a bit (for oozing off the bed when it heats)
 G1 Z0                       ; Move the bed to the top (assuming Z=0 is the top)
@@ -92,4 +94,3 @@ G1 X155 Y-3 Z5 F24000 ; nozzle brush cycle
 
 ; Created by Farley_34297 on Printables
 M104 S0                   ; Set the temperature of the extruder to 0°C (async/background/non-validating)
-T1                        ; Select the second extruder, so we can put the first away
