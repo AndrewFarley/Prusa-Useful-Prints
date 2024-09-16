@@ -5,6 +5,7 @@ These collection of prints are creations (or collections) for use on the various
 
 | File | Purpose |
 |----------|----------|
+| [nozzle-clean-ALL-heads.gcode](./nozzle-clean-ALL-heads.gcode)  | Cleaing Prusa XL - ALL print heads at the same time (~3-4 mins) (See: [link](https://www.printables.com/model/748775-xl-front-mount-nozzle-brush-using-voron-fysetc-bru)) |
 | [nozzle-clean-head-1.gcode](./nozzle-clean-head-1.gcode)  | Cleaing Prusa XL - First Print head on fixed brush (See: [link](https://www.printables.com/model/748775-xl-front-mount-nozzle-brush-using-voron-fysetc-bru)) |
 | [nozzle-clean-head-2.gcode](./nozzle-clean-head-1.gcode)  | Cleaing Prusa XL - Second Print head on fixed brush (See: [link](https://www.printables.com/model/748775-xl-front-mount-nozzle-brush-using-voron-fysetc-bru)) |
 | [nozzle-clean-head-3.gcode](./nozzle-clean-head-1.gcode)  | Cleaing Prusa XL - Third Print head on fixed brush (See: [link](https://www.printables.com/model/748775-xl-front-mount-nozzle-brush-using-voron-fysetc-bru)) |
